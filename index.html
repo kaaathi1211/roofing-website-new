@@ -11,7 +11,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-2">
+    <nav class="navbar navbar-expand-lg navbar-light mb-2">
         <a class="navbar-brand" href="#">Sydney Roofing Crew</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -30,6 +30,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
                 </li>
+                <div class="mx-2"></div>
                 <li>
                     <a href="#" class="btn btn-custom">FREE QUOTE</a>
                 </li>
@@ -37,18 +38,22 @@
         </div>
     </nav>
 
-    <div class="container">
+    <div class="container-fluid">
       
-        <div class="headers">
+        <div class="headers mb-5">
+            <div class="row">
+                <div class="col-12">
             <img src="HomeIMG/Header 1.png" alt="Roofing Header Image" class="img-fluid">
             <div class="overlay">
-                <h1>Welcome to Sydney Roofing Crew</h1>
-                <p>Your trusted roofing experts.</p>
-                <a href="#" class="btn btn-custom">FREE QUOTE</a>
+                <h1 style="margin-left: 20px;">New Roof, New Look</h1>
+                <p style="margin-left: 20px;">We offer high-quality roofing services and <br> materials that are built to last. <br> Get a free quote today.</p>
+                <a href="#" class="btn btn-custom" style="margin-left: 20px;">FREE QUOTE</a>
             </div>
         </div>
-
-        <div class="container-mt-2 mx-5">
+    </div>
+</div>
+        
+        <div class="container-mt-5 mx-5">
             <h6 class="mt-4">Why Choose Us?</h6>
             <div class="row">
 
@@ -97,7 +102,7 @@
             </div>
         </div>
 
-        <div class="container-mt-2 mx-5">
+        <div class="container-mt-5 mx-5">
             <h6 class="mt-4">What Our Clients Say.</h6>
             <div class="row">
                 <div class="col-lg-4 col-md-12 mb-3">
@@ -114,7 +119,7 @@
                     <p class="review-p"><em>Jim, Banksia </em><br> <br> "I recently had my roof's tiles re-pointed by this company, and I couldn't be happier with the results. The team was punctual, professional, and took great care to ensure the job was done correctly. My roof now looks like new again, and I would highly recommend this company for any tile pointing needs."</p>
                 </div>
 
-                <div class="col-lg-4 col-md-12 mb-3">
+                <div class="col-lg-4 col-md-12 mb-5">
                     <img src="HomeIMG/Customer Review Image 3.png" alt="Roofing Review Image" class="img-fluid review-img">
                 </div>
                 <div class="col-lg-6 col-md-12 mb-5">
@@ -124,11 +129,32 @@
             </div>
         </div>
 
+        <form class="p-3 quote-form mb-5" style="max-width: 50%; margin: 0 auto;">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Your message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-success">Send Request</button>
+        </form>
     </div>
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <footer>
+<div class="container-fluid footer">
+    <p class="footer-contact mt-3">Sydney Roofing Crew</p>
+    <p class="footer-contact">0436 359 200 <br> email@gmail.com</p>
+</div>
+    </footer>
 </body>
 
 </html>

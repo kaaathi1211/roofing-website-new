@@ -11,12 +11,15 @@ h6 {
 }
 
 .navbar-brand {
+    color: #28A745 !important;
     margin-left: 20px;
 }
 
 .navbar-collapse {
     margin-right: 20px;
+    margin-left: 20px;
 }
+
 
 .body1 {
     margin-left: 20px;
@@ -25,14 +28,16 @@ h6 {
 
 .headers {
    position: relative;
+   width: 100%;
+   overflow: hidden;
 }
 
 .headers img {
     display: block;
-    margin: 0 20;
+    margin: 0 auto;
     width: 100%;
     height: auto;
-    max-height: 500px;
+    width: calc(100% - 40px)
 }
 
 .overlay {
@@ -60,6 +65,7 @@ h6 {
 
 .btn-custom:hover {
     background-color: #28A745CC;
+    color: white;
 }
 
 .service-title {
@@ -103,6 +109,23 @@ h6 {
     margin-bottom: 15px;
 }
 
+.quote-form {
+    border: 0.5px solid #477A9E;
+    border-radius: 4px;
+    padding: 20px 40px !important;
+}
+
+.footer {
+    border-top: 0.5px solid #477A9E;
+}
+
+.footer-contact {
+    margin-left: 20px;
+}
+
+@media (max-width: 1200px){
+ }
+
 @media (max-width: 992px){
     .review-img {
         max-width: 50%;
@@ -111,9 +134,16 @@ h6 {
     .review-p {
         max-width: 70%;
     }
+    .quote-form {
+        max-width: 80% !important;
+    }
 }
 
 @media (max-width: 768px){
+    h1 {
+        font-size: 30px;
+    }
+
     .review-img {
         max-width: 80%;
         height: auto;
@@ -121,15 +151,28 @@ h6 {
     .review-p {
         max-width: 80%;
     }
+
+    .quote-form {
+        max-width: 80% !important;
+    }
 }
 
 @media (max-width: 600px){
     h1 {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .review-img {
         max-width: 100%;
         height: auto;
+    }
+
+    .why-us-card {
+        width: auto;
+        max-height: 90%;
+    }
+
+    .quote-form {
+        max-width: 80% !important;
     }
 }
