@@ -142,6 +142,11 @@ h6 {
     margin-bottom: 5px;
 }
 
+.story-p {
+    font-size: 14px;
+    color: #477A9E;
+}
+
 @media (max-width: 1200px){
     .why-us-card {
         height: 280px;
@@ -150,7 +155,7 @@ h6 {
 
 @media (max-width: 992px){
     .why-us-card{
-        max-height: 200px;
+        max-height: 300px;
     }
     .review-img {
         max-width: 50%;
@@ -162,6 +167,11 @@ h6 {
     .quote-form {
         max-width: 80% !important;
     }
+    .story-img{
+        max-height: 80%;
+        display: block;
+        margin: 0 auto;
+       }
 }
 
 @media (max-width: 768px){
@@ -179,6 +189,9 @@ h6 {
     .quote-form {
         max-width: 80% !important;
     }
+    .story-img{
+        max-height: 100%;
+       }
 }
 
 @media (max-width: 600px){
