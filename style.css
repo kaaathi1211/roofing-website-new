@@ -147,6 +147,12 @@ h6 {
     color: #477A9E;
 }
 
+@media (min-width: 1200px) {
+    .story-img {
+        max-height: 80%;
+    }
+}
+
 @media (max-width: 1200px){
     .why-us-card {
         height: 280px;
