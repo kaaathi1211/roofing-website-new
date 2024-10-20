@@ -47,6 +47,13 @@ h6 {
     padding: 15px;
 }
 
+.overlay-rest {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 15px;
+}
+
 .overlay h1 {
     color: white;
     font-weight: bold;
@@ -123,10 +130,28 @@ h6 {
     margin-left: 20px;
 }
 
+.footer-name {
+    font-weight: bold;
+    color: #28A745;
+}
+
+.vector {
+    height: 20px;
+    width: 20px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
 @media (max-width: 1200px){
+    .why-us-card {
+        height: 280px;
+    }
  }
 
 @media (max-width: 992px){
+    .why-us-card{
+        max-height: 200px;
+    }
     .review-img {
         max-width: 50%;
         height: auto;
@@ -143,7 +168,6 @@ h6 {
     h1 {
         font-size: 30px;
     }
-
     .review-img {
         max-width: 80%;
         height: auto;
