@@ -159,6 +159,20 @@ h4 {
     opacity: 30%;
 }
 
+.services-p{
+    color: #477A9E; 
+    font-size: 14px;
+}
+
+.services-header{
+    color: #0D171C;
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 80%;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
 @media (min-width: 1200px) {
     .story-img {
         max-height: 80%;
@@ -232,5 +246,9 @@ h4 {
 
     .quote-form {
         max-width: 80% !important;
+    }
+    .services-img {
+        max-width: 90%;
+        height: auto;
     }
 }
