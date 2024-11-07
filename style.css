@@ -52,7 +52,7 @@ h6 {
 .overlay-rest {
     position: absolute;
     top: 20px;
-    left: 40px;
+    left: 20px;
     padding: 15px;
 }
 
@@ -230,7 +230,15 @@ h4 {
 
 @media (max-width: 600px){
     h1 {
-        font-size: 25px;
+        font-size: 20px;
+        margin-top: -20px;
+    }
+    .overlay p {
+        font-size: 14px;  
+    }
+    .btn-custom {
+        padding: 3px 8px; 
+        font-size: 12px;
     }
 
     .review-img {
@@ -240,7 +248,7 @@ h4 {
 
     .why-us-card {
         width: auto;
-        max-height: 90%;
+        max-height: 200px;
     }
 
     .quote-form {
@@ -250,4 +258,8 @@ h4 {
         max-width: 90%;
         height: auto;
     }
+    .contact-container {
+        padding: 0 40px;
+    }
+
 }
